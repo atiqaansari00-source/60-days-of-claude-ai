@@ -1,0 +1,53 @@
+# Day 4 - Chain of Thought Prompting
+
+## What I Learned
+
+Today I learned about Chain-of-Thought (CoT) Prompting. It helps AI think step by step before generating a final answer. This improves reasoning quality and produces more detailed, structured, and personalized outputs.
+
+## Normal Prompt
+
+### Prompt
+Create a roadmap to help me become a software engineer.
+
+### Observation
+The response provided a roadmap, but it was generic and designed for a broad audience. It focused on programming fundamentals, web development, DSA, backend development, and interview preparation.
+
+## Chain-of-Thought Prompt
+
+### Prompt
+You are a senior software engineer and career mentor.
+
+Create a personalized roadmap to help me become a software engineer.
+
+Think step by step before giving the final answer.
+
+My background:
+- Completed BCA
+- Currently pursuing MCA
+- Interested in Software Engineering
+- Learning C, Java, Python, SQL
+- Beginner in DSA
+- Goal: Get a software engineering job within the next few months
+
+### Observation
+The response was personalized for my background. It analyzed my current skills, identified gaps, suggested focusing on Java or Python, recommended daily DSA practice, project building, interview preparation, and provided a realistic strategy for getting a software engineering job.
+
+## Key Learnings
+
+1. Chain-of-Thought Prompting improves reasoning quality.
+2. AI generates more structured and personalized outputs.
+3. Providing context helps AI create better recommendations.
+4. Step-by-step thinking produces more actionable plans.
+
+## Comparison
+
+| Normal Prompt | Chain-of-Thought Prompt |
+|---------------|-------------------------|
+| Generic roadmap | Personalized roadmap |
+| Limited reasoning | Step-by-step reasoning |
+| Broad recommendations | Specific recommendations |
+| Less context aware | Context aware |
+
+## Conclusion
+
+Chain-of-Thought Prompting is a powerful technique that encourages AI to reason through a problem before answering. This results in more accurate, detailed, and useful responses.
